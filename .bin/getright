@@ -1,0 +1,13 @@
+#!/bin/bash
+## getright.sh for getright in /home/sauvai_l/.bin
+## 
+## Made by Sauvaire Lorenzo
+## Login   <sauvai_l@epitech.net>
+## 
+## Started on  Sat Jan  9 18:21:30 2016 Sauvaire Lorenzo
+## Last update Sat Jan  9 18:24:29 2016 Sauvaire Lorenzo
+##
+
+read -p "Repository : " repo
+
+~/.bin/blih.py repository getacl $repo

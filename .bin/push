@@ -1,0 +1,15 @@
+#!/bin/bash
+## push for auto in /home/sauvai_l/bin
+## 
+## Made by Sauvaire Lorenzo
+## Login   <sauvai_l@epitech.net>
+## 
+## Started on  Mon Nov 30 14:14:13 2015 Sauvaire Lorenzo
+## Last update Wed Jan  4 13:43:49 2017 sauvaire lorenzo
+##
+
+read -p 'Commit : ' commit
+git pull
+git add --all
+git commit -m "$commit"
+git push -u origin master
